@@ -19,6 +19,6 @@ export default class PoopCommand extends Command<MSSMUser, MSSM> {
         }
 
         // @ts-ignore
-        msg.reply({ content: `${userMention("1123025469231612044")} has shit ${this.bot.memory.poop} times`, flags: [MessageFlags.SuppressNotifications] });
+        msg.reply({ content: `${userMention("1123025469231612044")} has crud ${this.bot.memory.poop} times`, flags: [MessageFlags.SuppressNotifications] });
     }
 }
